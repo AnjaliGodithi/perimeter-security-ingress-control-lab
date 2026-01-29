@@ -33,3 +33,7 @@ To implement a default-deny ingress firewall policy, allow only required service
 netsh advfirewall show allprofiles
 netsh advfirewall firewall show rule name=all
 ```
+
+## Proofs
+![Firewall-Profiles](./proofs/firewall-profiles.png)
+![Firewall-Rules](./proofs/firewall-rules.png)
